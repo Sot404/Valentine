@@ -11,7 +11,7 @@ function rand(min, max) {
 }
 
 /* ---------- Falling hearts background ---------- */
-const heartEmojis = ["💗","💖","💘","💞","💕","🌸","✨"];
+const heartEmojis = ["💗","💖","💘","💞","💕","🌸","✨","💋","💐","🌷","🌹","🦕"];
 
 function spawnHeart() {
   const el = document.createElement("div");

@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>💗 Valentine?</title>
+  <title>Valentine? 💗</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E🌸%3C/text%3E%3C/svg%3E" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -12,14 +13,31 @@
 
   <main class="wrap">
     <section class="sheet" role="dialog" aria-modal="true" aria-label="Valentine modal">
-      <div class="badge">🌸</div>
+      <div class="frame" aria-hidden="true">
+        <div class="frame-row frame-top">
+          <span>🪻</span><span>🌸</span><span>💐</span><span>🌷</span><span>🌹</span><span>🪻</span><span>🌸</span><span>💐</span><span>🌷</span><span>🌹</span><span>🪻</span><span>🌸</span>
+          <span>💐</span><span>🌷</span><span>🌹</span><span>🪻</span><span>🌸</span><span>💐</span><span>🌷</span><span>🌹</span><span>🪻</span><span>🌸</span><span>💐</span><span>🌷</span>
+        </div>
+        <div class="frame-row frame-bottom">
+          <span>🌹</span><span>🌷</span><span>💐</span><span>🌸</span><span>🪻</span><span>🌹</span><span>🌷</span><span>💐</span><span>🌸</span><span>🪻</span><span>🌹</span><span>🌷</span>
+          <span>💐</span><span>🌸</span><span>🪻</span><span>🌹</span><span>🌷</span><span>💐</span><span>🌸</span><span>🪻</span><span>🌹</span><span>🌷</span><span>💐</span><span>🌸</span>
+        </div>
+        <div class="frame-col frame-left">
+          <span>🪻</span><span>🌸</span><span>💐</span><span>🌷</span><span>🌹</span><span>🪻</span><span>🌸</span><span>💐</span>
+          <span>🌷</span><span>🌹</span><span>🪻</span><span>🌸</span><span>💐</span><span>🌷</span><span>🌹</span><span>🪻</span>
+        </div>
+        <div class="frame-col frame-right">
+          <span>🌹</span><span>🌷</span><span>💐</span><span>🌸</span><span>🪻</span><span>🌹</span><span>🌷</span><span>💐</span>
+          <span>🌸</span><span>🪻</span><span>🌹</span><span>🌷</span><span>💐</span><span>🌸</span><span>🪻</span><span>🌹</span>
+        </div>
+      </div>
 
       <h1 id="question">Μαρία, θες να είσαι η βαλεντίνα μου;</h1>
-      <p class="sub">Υπόσχομαι πολλά hugs, σοκολάτες και χαζά αστεία.</p>
+      <p class="sub">Υπόσχομαι πολλές αγκαλιές, σοκολάτες (ίσως όχι πολλές) και χαζά αστεία.</p>
 
       <div class="buttons" id="buttons">
         <button class="btn yes" id="yesBtn">ΝΑΙ 💖</button>
-        <button class="btn no" id="noBtn">ΟΧΙ 🙃</button>
+        <button class="btn no" id="noBtn">ΟΧΙ 🥀</button>
       </div>
 
       <div class="videoWrap" id="videoWrap" hidden>
@@ -29,7 +47,7 @@
             id="yt"
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=0"
+            src="https://www.youtube.com/embed/_2ia3btN2Rc"
             title="YouTube video"
             frameborder="0"
             allow="autoplay; encrypted-media; picture-in-picture"
