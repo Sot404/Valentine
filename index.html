@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>💗 Valentine?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-hearts" aria-hidden="true"></div>
+
+  <main class="wrap">
+    <section class="sheet" role="dialog" aria-modal="true" aria-label="Valentine modal">
+      <div class="badge">🌸</div>
+
+      <h1 id="question">Μαρία, θες να είσαι η βαλεντίνα μου;</h1>
+      <p class="sub">Υπόσχομαι πολλά hugs, σοκολάτες και χαζά αστεία.</p>
+
+      <div class="buttons" id="buttons">
+        <button class="btn yes" id="yesBtn">ΝΑΙ 💖</button>
+        <button class="btn no" id="noBtn">ΟΧΙ 🙃</button>
+      </div>
+
+      <div class="videoWrap" id="videoWrap" hidden>
+        <!-- Option A: YouTube (unlisted) -->
+        <div class="video">
+          <iframe
+            id="yt"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=0"
+            title="YouTube video"
+            frameborder="0"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <!-- Option B: MP4 (αν το θες αντί YouTube)
+        <video controls autoplay playsinline>
+          <source src="video.mp4" type="video/mp4" />
+        </video>
+        -->
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
